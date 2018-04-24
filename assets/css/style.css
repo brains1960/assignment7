@@ -1227,258 +1227,248 @@ i.fa.fa-angle-up {
 	7. OTHERS: COLOR SCHEME, BUTTONS Etc.
 	################################################################# */
 	
-	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus,
-	.navbar-default .navbar-nav > li > a:active,
-	.navbar-default .navbar-nav > li > a.active,
-	.navbar-default .navbar-nav > .active > a, 
-	.navbar-default .navbar-nav > .active > a:hover, 
-	.navbar-default .navbar-nav > .active > a:focus,
-	.transparent .title h2 {
-		border-color:green;
-	}
-	
-	.video iframe,.video object,.video embed ,
-	.iaudio iframe,.iaudio object,.iaudio embed {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		border:none;
-	}
-	
-	
-	i.fa.fa-long-arrow-left {
-		font-size: 15px;
-		margin-right: 10px;
-	}
-	
-	 .blog-carousel img {
-		width:100%;
-	 }
-	 
-	 ul.social-icons {
-		margin-top: 0px;
-	}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus,
+.transparent .title h2 {
+    border-color:green;
+}
 
-	.post-type {
-		color: #FFFFFF;
-		font-size: 18px;
-		height: 42px;
-		line-height: 42px;
-		position: absolute;
-		right: 0;
-		text-align: center;
-		bottom: 0;
-		z-index:10;
-		width: 52px;
-		background:#222;
-	}
-	.entry:hover .post-type {
-		opacity:0
-	}
-	.social_like .icon-container {
-		color:#222;
-		margin:0 15px 0 0;
-		background:#fff;
-	}
-	.social_like .btn {
-		width:86px;
-	}
-	.social_like {
-		position:relative;
-		display:block;
-	}
-	.social_like h3 {
-		font-size: 18px !important;
-		margin-bottom: 0;
-		padding-bottom: 0;
-	}
-	.social_button {
-		position:absolute;
-		right:0;
-		top:10px;
-	}
+.video iframe,.video object,.video embed ,
+.iaudio iframe,.iaudio object,.iaudio embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:none;
+}
+
+
+i.fa.fa-long-arrow-left {
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+ .blog-carousel img {
+    width:100%;
+ }
+
+ ul.social-icons {
+    margin-top: 0px;
+}
+
+.post-type {
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 42px;
+    line-height: 42px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    bottom: 0;
+    z-index:10;
+    width: 52px;
+    background:#222;
+}
+.entry:hover .post-type {
+    opacity:0
+}
+.social_like .icon-container {
+    color:#222;
+    margin:0 15px 0 0;
+    background:#fff;
+}
+.social_like .btn {
+    width:86px;
+}
+.social_like {
+    position:relative;
+    display:block;
+}
+.social_like h3 {
+    font-size: 18px !important;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.social_button {
+    position:absolute;
+    right:0;
+    top:10px;
+}
 /*	################################################################
 	8. SOCIAL MEDIA SECTION
 	################################################################# */
 	
-	.social-icons {
-		padding:0;
-		width:245px;
-		margin: -35px 0 10px 0;
-		text-align:center;
-		display:block; 
-		overflow:hidden
-	}
-	.social-icons span a {
-		font-size:14px;
-		text-align:center;
-		width:40px;
-		height:42px;
-		line-height:42px;
-		overflow:hidden;
-		display:block;
-		float:left
-	}
-	
-	.social-icons i.fa {
-		font-size: 15px;
-	}
-	
-	#footer-style-2 .social-icons span a,
-	#footer-style-3 .social-icons span a,
-	#footer-style-1 .social-icons span a {
-		border:none;
-		color:#686868;
-	}
+.social-icons {
+    padding:0;
+    width:245px;
+    margin: -35px 0 10px 0;
+    text-align:center;
+    display:block; 
+    overflow:hidden
+}
+.social-icons span a {
+    font-size:14px;
+    text-align:center;
+    width:40px;
+    height:42px;
+    line-height:42px;
+    overflow:hidden;
+    display:block;
+    float:left
+}
 
-	
+.social-icons i.fa {
+    font-size: 15px;
+}
+
+#footer-style-2 .social-icons span a,
+#footer-style-3 .social-icons span a,
+#footer-style-1 .social-icons span a {
+    border:none;
+    color:#686868;
+}
+
+
 /*	################################################################
 	9. Mobile Responsive
 	################################################################# */	
 	
-	@media (max-width: 768px) { {
-		.home-content h1 {font-size:31px !important}
-		.tparrows,
-		.small_title,
-		.slider_menu a {display:none}
-	}
-	
-	ul.nav.navbar-nav.navbar-right {
-		background: rgba(0, 0, 0, 0.55);
-	}
-		
-	.tp-caption p {
-		margin-top:110px!important;
-		line-height:1.3;
-		
-		}
-		
-	.tp-caption h2 {
-		font-size : 26px!important;
-    }	 
-	
-	
-	#slider4container .tparrows:before,
-	#slider4container .tparrows:hover,
-	#slider4container .tparrows {
-		color: #000 !important;
-	}
-	#slider4container .tparrows {
-		background:#fff !important;
-		background:rgba(255,255,255,0.5) !important;
-	}
-	#slider4container .tparrows:hover	{
-		background:#fff !important
-	}
-	
-	.sliderbigtitle {
-	font-size: 26px;
-	}
-	
-	}
+@media (max-width: 768px) { {
+    .home-content h1 {font-size:31px !important}
+    .tparrows,
+    .small_title,
+    .slider_menu a {display:none}
+}
 
+ul.nav.navbar-nav.navbar-right {
+    background: rgba(0, 0, 0, 0.55);
+}
+
+.tp-caption p {
+    margin-top:110px!important;
+    line-height:1.3;
+
+    }
+
+.tp-caption h2 {
+    font-size : 26px!important;
+}	 
+
+
+#slider4container .tparrows:before,
+#slider4container .tparrows:hover,
+#slider4container .tparrows {
+    color: #000 !important;
+}
+#slider4container .tparrows {
+    background:#fff !important;
+    background:rgba(255,255,255,0.5) !important;
+}
+#slider4container .tparrows:hover	{
+    background:#fff !important
+}
+
+.sliderbigtitle {
+font-size: 26px;
+}
 /*	################################################################
 	7. VIDEO PARALLEX
 	################################################################# */
 		
-	#videobgfull {
-		width:100% !important;
-		min-height:500px !important;
-		max-height:100% !important;
-		position:relative !important;
-	}
-	
-	.videooverlay {
-		padding: 100px 0;
-		background-color: rgba(0, 135, 81, 0.6);
-	}
-	
-	.videooverlay .general-title h2 {
-		color:#fff;
-	}
-	
-	.video-js {width:100%; height:100%;}
-	
-	#revvideo {
-		width:100% !important;
-		height:100% !important;
-	}
-			
-	#volume {
-		bottom: 0;
-		color: #ffffff;
-		cursor: pointer;
-		font-size: 17px;
-		height: 30px;
-		line-height: 28px;
-		position: absolute;
-		right: 0;
-		text-align: center;
-		width: 30px;
-		z-index: 10;
-		background: #3C3B3B;
-		border: 1px dashed #222;
-	}
-	
-	.js-video {
-		height: 0;
-		padding-top: 25px;
-		padding-bottom: 50.5%;
-		border:1px solid #ffffff;
-		position: relative;
-		overflow: hidden;
-	}
-	.js-video.widescreen {
-		padding-bottom: 57.25%;
-		border:1px solid #ffffff;
-	}
-	.js-video.vimeo {
-		padding-top: 0;
-		border:1px solid #ffffff;
-	}	
-	
-	.js-video embed, .js-video iframe, .js-video object, .js-video video {
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		position: absolute;
-	}
-	
-	.mb_YTVPlayer {z-index:-10;}
-	.videobg {
-		padding:0; 
-		color:#ffffff !important;
-	}
-	
-	.videobg-wrap .general-title hr {
-		background-color:#ffffff;
-	}
-	.videobg-wrap { background-color: rgba(247, 194, 33, 0.5);padding:30px 0 0}
-	
-	.animationload {
-		position: fixed;
-		top:0;
-		left:0;
-		right:0;
-		bottom:0;
-		background-color:#fff; /* change if the mask should have another color then white */
-		z-index:999999; /* makes sure it stays on top */
-	}
-	.loader {
-		width:200px;
-		text-indent:-99999;
-		height:200px;
-		font-size:0;
-		position:absolute;
-		left:50%; /* centers the loading animation horizontally one the screen */
-		top:50%; /* centers the loading animation vertically one the screen */
-		background-image:url(../images/loading.GIF); /* path to your loading animation */
-		background-repeat:no-repeat;
-		background-position:center;
-		margin:-100px 0 0 -100px; /* is width and height divided by two */
-	}
-	
+#videobgfull {
+    width:100% !important;
+    min-height:500px !important;
+    max-height:100% !important;
+    position:relative !important;
+}
+
+.videooverlay {
+    padding: 100px 0;
+    background-color: rgba(0, 135, 81, 0.6);
+}
+
+.videooverlay .general-title h2 {
+    color:#fff;
+}
+
+.video-js {width:100%; height:100%;}
+
+#volume {
+    bottom: 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 17px;
+    height: 30px;
+    line-height: 28px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 30px;
+    z-index: 10;
+    background: #3C3B3B;
+    border: 1px dashed #222;
+}
+
+.js-video {
+    height: 0;
+    padding-top: 25px;
+    padding-bottom: 50.5%;
+    border:1px solid #ffffff;
+    position: relative;
+    overflow: hidden;
+}
+.js-video.widescreen {
+    padding-bottom: 57.25%;
+    border:1px solid #ffffff;
+}
+.js-video.vimeo {
+    padding-top: 0;
+    border:1px solid #ffffff;
+}	
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.videobg {
+    padding:0; 
+    color:#ffffff !important;
+}
+
+.videobg-wrap .general-title hr {
+    background-color:#ffffff;
+}
+.videobg-wrap { background-color: rgba(247, 194, 33, 0.5);padding:30px 0 0}
+
+.animationload {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white */
+    z-index:999999; /* makes sure it stays on top */
+}
+.loader {
+    width:200px;
+    text-indent:-99999;
+    height:200px;
+    font-size:0;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen */
+    top:50%; /* centers the loading animation vertically one the screen */
+    background-image:url(../images/loading.GIF); /* path to your loading animation */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two */
+}
